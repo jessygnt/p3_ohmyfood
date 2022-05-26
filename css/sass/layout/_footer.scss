@@ -1,0 +1,44 @@
+footer {
+    height: 197px;
+    background-color: #282828;
+    color: white;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+
+
+    .heading-footer {
+        padding: 20px 0;
+
+        h1 {
+            margin: 0;
+            font-family: 'Shrikhand', sans-serif;
+            font-size: 18px;
+        }
+    }
+
+    .logo-links,
+    .other-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .other-links {
+        font-weight: 300;
+    }
+
+    .links {
+        padding-bottom: 10px;
+
+        i {
+            font-size: 14px;
+            width: 10px;
+            margin-right: 15px;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

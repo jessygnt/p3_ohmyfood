@@ -339,4 +339,60 @@ template {
   display: none;
 }
 
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a img {
+  height: 30px;
+}
+
+footer {
+  height: 197px;
+  background-color: #282828;
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+footer .heading-footer {
+  padding: 20px 0;
+}
+footer .heading-footer h1 {
+  margin: 0;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 18px;
+}
+footer .logo-links,
+footer .other-links {
+  display: flex;
+  flex-direction: column;
+}
+footer .other-links {
+  font-weight: 300;
+}
+footer .links {
+  padding-bottom: 10px;
+}
+footer .links i {
+  font-size: 14px;
+  width: 10px;
+  margin-right: 15px;
+}
+footer .links:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
