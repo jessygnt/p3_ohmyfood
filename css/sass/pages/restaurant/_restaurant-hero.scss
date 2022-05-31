@@ -1,0 +1,28 @@
+.restaurant-hero {
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 1200px) {
+
+    .restaurant-hero {
+
+        img {
+            height: 700px;
+        }
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-section {
+        width: 33%;
+    }
+}

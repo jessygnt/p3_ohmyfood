@@ -1,0 +1,43 @@
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    .heart-animation-menu {
+        font-size: 25px;
+        padding-right: 25px;
+
+        .heart {
+            width: 30px;
+            stroke-width: 20;
+            stroke: black;
+            fill: #F6F6F6;
+            cursor: pointer;
+        }
+
+        .heart-full {
+            position: absolute;
+            fill: url(#text-fill);
+            stroke-width: 20;
+            stroke: $color-primary;
+        }
+
+        .heart-empty {
+            width: 30px;
+            position: relative;
+
+            &:hover {
+                opacity: 0;
+                transition: .8s;
+            }
+        }
+    }
+}

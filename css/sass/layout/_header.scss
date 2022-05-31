@@ -13,4 +13,25 @@ header {
         }
     }
 
+    .redirection {
+        position: absolute;
+        height: 35px;
+        width: 35px;
+        left: 25px;
+        font-size: 24px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 50%;
+
+
+
+        &:hover {
+            background: linear-gradient(346deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 100%);
+            color: white;
+        }
+    }
+
 }

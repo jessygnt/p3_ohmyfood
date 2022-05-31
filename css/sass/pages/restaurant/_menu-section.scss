@@ -1,0 +1,59 @@
+.content-restaurant {
+    background-color: #F6F6F6;
+    margin-top: -50px;
+    border-radius: 40px 40px 0 0;
+    position: relative;
+    padding: 40px 0 65px 0;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu-section {
+    margin: 0 20px;
+    margin-bottom: 50px;
+}
+
+.subtitle-menu {
+    margin-top: 35px;
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        text-transform: uppercase;
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .underline {
+        margin-top: 5px;
+        width: 45px;
+        height: 3px;
+        background-color: $color-tertiary;
+    }
+}
+
+.bouton {
+    display: flex;
+    justify-content: center;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 1200px) {
+
+    .content-restaurant {
+        width: 1200px;
+        margin: -55px auto 0 auto;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-section {
+        width: 33%;
+    }
+}

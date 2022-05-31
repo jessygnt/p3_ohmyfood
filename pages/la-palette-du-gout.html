@@ -7,19 +7,195 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ohmyfood</title>
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/ac25c59daa.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div id="app">
 
-        <header></header>
+        <header>
+            <a href="../index.html" title="Retour à l'accueil" class="redirection"><i
+                    class="fa-solid fa-arrow-left"></i></a>
+            <a href="./index.html"><img src="../img/logo/ohmyfood.png" alt="ohmyfood"></a>
+        </header>
 
-        <div class="restaurant-image"></div>
+        <div class="restaurant-hero">
+            <img src="../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+        </div>
 
-        <main></main>
+        <main class="content-restaurant">
+            <div class="header-menu">
+                <h1>La palette du goût</h1>
+                <div class="heart-animation-menu">
+                    <svg class="heart heart-full" viewBox="-20 0 550 550" xml:space="preserve">
+                        <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                 c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                 c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                 s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                 C512,93.417,453.532,30,376,30z" />
+                        <defs>
+                            <linearGradient id="text-fill" x1="1" x2="0.5" y1="0.1" y2="0.9">
+                                <stop offset="0%" stop-color="#9356DC" />
+                                <stop offset="100%" stop-color="#FF79DA" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
 
-        <footer></footer>
+                    <svg class="heart heart-empty" viewBox="-20 0 550 550" xml:space="preserve">
+                        <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                 c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                 c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                 s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                 C512,93.417,453.532,30,376,30z" />
+                    </svg>
+                </div>
+            </div>
+
+            <section class="menu">
+                <div class="menu-section">
+                    <div class="subtitle-menu">
+                        <h2>Entrées</h2>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="cards-menu">
+                        <div class="card-menu apparition" id="case-1">
+                            <h1>Fricassée d'escargot</h1>
+                            <div class="description-menu">
+                                <p>Au piment d'espelette</p>
+                                <p class="price">25€</p>
+                            </div>
+                            <div class="validation-box">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="card-menu apparition" id="case-2">
+                            <h1>Foie gras de canard mi-cuit</h1>
+                            <div class="description-menu">
+                                <p>Et ses copeaux de truffe noire</p>
+                                <p class="price">35€</p>
+                            </div>
+                            <div class="validation-box">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="card-menu apparition" id="case-3">
+                            <h1>Oeuf au plat</h1>
+                            <div class="description-menu">
+                                <p>Assaisonné à la truffe sur lit de caviar</p>
+                                <p class="price">20€</p>
+                            </div>
+                            <div class="validation-box">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu-section">
+                    <div class="subtitle-menu">
+                        <h2>Plats</h2>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="cards-menu apparition" id="case-4">
+                        <div class="card-menu">
+                            <h1>Filet de boeuf aux herbes</h1>
+                            <div class="description-menu">
+                                <p>Accompagné de sa ribambelle de légumes</p>
+                                <p class="price">40€</p>
+                            </div>
+                            <div class="validation-box">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="card-menu apparition" id="case-5">
+                            <h1>Parmentier de queue de boeuf</h1>
+                            <div class="description-menu">
+                                <p>À la truffe noir sur sa purée de panais</p>
+                                <p class="price">35€</p>
+                            </div>
+                            <div class="validation-box">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="card-menu apparition" id="case-6">
+                            <h1>Filet de Turbot</h1>
+                            <div class="description-menu">
+                                <p>Aux agrumes</p>
+                                <p class="price">44€</p>
+                            </div>
+                            <div class="validation-box">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu-section">
+                    <div class="subtitle-menu">
+                        <h2>Desserts</h2>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="cards-menu apparition" id="case-7">
+                        <div class="card-menu">
+                            <h1>Paris-Brest</h1>
+                            <div class="description-menu">
+                                <p>Revisité</p>
+                                <p class="price">18€</p>
+                            </div>
+                            <div class="validation-box">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="card-menu apparition" id="case-8">
+                            <h1>Macaron au chocolat d'exeption</h1>
+                            <div class="description-menu">
+                                <p>Et glace à la vanille de Madagascar</p>
+                                <p class="price">22€</p>
+                            </div>
+                            <div class="validation-box">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="card-menu apparition" id="case-9">
+                            <h1>Mousse au chocolat</h1>
+                            <div class="description-menu">
+                                <div class="description-text">
+                                    <p>Au piment d'espelette et à la truffe noire</p>
+                                </div>
+
+                                <p class="price">23€</p>
+                            </div>
+                            <div class="validation-box">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <div class="bouton"><button class="btn">Commander</button></div>
+        </main>
+
+        <footer>
+            <div class="heading-footer">
+                <h1>ohmyfood</h1>
+            </div>
+            <div class="logo-links">
+                <a href="#" class="links"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
+                <a href="#" class="links"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
+            </div>
+            <div class="other-links">
+                <a href="#" class="links">Mentions légales</a>
+                <a href="mailto:contact@jessygonet.fr" class="links">Contact</a>
+            </div>
+        </footer>
     </div>
 </body>
 
