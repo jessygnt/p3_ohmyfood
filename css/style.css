@@ -680,6 +680,10 @@ header .redirection:hover {
   font-size: 17px;
   font-weight: 400;
   margin: 0;
+  width: 330px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .card-menu p {
   font-weight: 200;
@@ -687,8 +691,10 @@ header .redirection:hover {
   margin: 0;
 }
 .card-menu .description-text {
+  width: 300px;
   text-overflow: ellipsis;
   overflow: hidden;
+  white-space: nowrap;
 }
 .card-menu .price {
   font-weight: 500;
@@ -736,6 +742,33 @@ header .redirection:hover {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+/* RESPONSIVE */
+@media (min-width: 1200px) {
+  .content-restaurant {
+    width: 1200px;
+    margin: -55px auto 0 auto;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-section .card-menu {
+    width: 330px;
+    height: 70px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 15px;
+    box-shadow: 0 6px 12px rgba(107, 107, 107, 0.2352941176);
+    position: relative;
+    overflow: hidden;
   }
 }
 .restaurant-hero img {
