@@ -2,5 +2,12 @@
 @import "./base/bases";
 @import "./base/fonts";
 @import "./utils/variables";
+@import "./pages/accueil/loading-spinner";
 @import "./layout/header";
+@import "./pages/accueil/location";
+@import "./pages/accueil/hero";
+@import "./components/button";
+@import "./pages/accueil/sections";
+@import "./components/information-card";
+@import "./components/restaurant-card";
 @import "./layout/footer";
